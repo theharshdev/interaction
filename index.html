@@ -8,6 +8,271 @@
     <title>Interaction</title>
   </head>
   <body>
-    
+    <section class="relative h-[90dvh] flex items-end justify-end">
+      <div class="absolute top-0 left-0 w-1/2 ps-[5%] pt-8 pointer-events-none">
+        <h3
+          class="lg:text-4xl md:text-3xl sm:text-2xl text-xl text-slate-800 font-bold"
+        >
+          We're growing
+        </h3>
+        <div class="flex gap-8 md:mt-8 mt-4">
+          <div class="w-1/2 border-t border-t-slate-300 md:pt-8 pt-4">
+            <h3 class="text-slate-800 md:text-xl text-base font-bold">Year</h3>
+            <p
+              id="year"
+              class="lg:text-7xl md:text-6xl sm:text-5xl text-3xl font-extrabold md:mt-6 mt-4 text-slate-800"
+            ></p>
+          </div>
+          <div class="w-1/2 border-t border-t-slate-300 md:pt-8 pt-4">
+            <h3 class="text-slate-800 md:text-xl text-base font-bold">
+              People
+            </h3>
+            <p
+              id="people"
+              class="lg:text-7xl md:text-6xl sm:text-5xl text-3xl font-extrabold md:mt-6 mt-4 text-slate-800"
+            ></p>
+          </div>
+        </div>
+      </div>
+      <!-- Graph -->
+      <div
+        class="flex justify-end items-end lg:h-[90%] md:h-[80%] h-[60%] w-[90vw]"
+      >
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[5%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="12"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2013</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[8%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="23"
+            />
+          </label>
+          <span
+            class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+            >2014</span
+          >
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[15%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="43"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2015</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[18%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="54"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2016</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[23%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="68"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2017</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[25%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="143"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2018</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[30%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="133"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2019</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[39%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="221"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2020</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[55%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="234"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2021</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[80%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="244"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2022</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[90%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="322"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2023</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[92%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="335"
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2024</span
+            >
+          </label>
+        </div>
+        <div class="w-full group relative bg-slate-200 cursor-pointer h-[95%]">
+          <label
+            class="bg-gradient-to-b from-red-700 graphLabel cursor-pointer to-slate-200 absolute top-0 left-0 w-full h-0 group-hover:h-full has-[:checked]:h-full"
+            style="transition: 0.4s"
+          >
+            <input
+              type="radio"
+              class="w-0 h-0 peer graphCheck opacity-0 outline-none border-0"
+              name="graphCheck"
+              value="441"
+              checked
+            />
+            <span
+              class="lableYear text-center opacity-0 md:block hidden group-hover:opacity-100 group-hover:-translate-y-[200%] transition-transform font-bold text-slate-800 text-lg peer-[:checked]:-translate-y-[200%] peer-checked:opacity-100"
+              >2025</span
+            >
+          </label>
+        </div>
+      </div>
+    </section>
+    <section class="bg-slate-200">
+      <div class="py-14 px-4 max-w-[1400px] mx-auto flex gap-8">
+        <h3 class="text-slate-800 w-1/2 font-light uppercase text-lg">
+          SEEING EYE TO EYE
+        </h3>
+        <p class="text-slate-800 text-2xl font-semibold w-1/2">
+          Behind every product we ship is a team determined to make an impact.
+          We’re building technology, we’re also creating relationships.
+        </p>
+      </div>
+    </section>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
